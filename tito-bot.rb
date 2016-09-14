@@ -115,7 +115,7 @@ client.on :message do |data|
 			end
 		when /(O|o)cean/ then
 			unless matched_quote == true
-				client.message channel: data.channel, text: "#{ocean.sample}"
+				client.message channel: data.channel, text: "#{ocean_quotes.sample}"
    			matched_quote = true
 			end
 		when /(F|f)ly/ then
