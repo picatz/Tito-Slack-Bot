@@ -8,9 +8,9 @@ TODO:
 * Cleaner quote checking.
 
 ## Installation
-You're going to need to install the following ruby gem:
+You're going to need to install the following ruby gems:
                                                                      
-`gem install slack-ruby-client`
+`gem install slack-ruby-client faye-websocket`
 
 ## Usage
 Start the bot after configuring the bot in your team's bot integrations.
